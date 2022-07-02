@@ -2,15 +2,15 @@
 
 ##### Contribution
 
-###### 徐宇航(developer, team leader)
+###### 徐宇航(developer, team leader) 100%
 
 mainly responsible for the overall code structure, video shooting, assisting team members to communicate, most of the code and UI implementation, and the actual test of the code.
 
-###### 周旭涛(developer)
+###### 周旭涛(developer) 100%
 
 Assisting the other two developers, mainly responsible for the UI part, as well as the sensor data collection part, and wrote a summary. Also participated in the actual testing of the code.
 
-###### 康舒涵(developer)
+###### 康舒涵(developer) 100%
 
 Technical data search and study, ppt production and modification, publicity video starring actor, final presentation and speech preparation, abstract polishing and modification
 
