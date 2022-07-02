@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MyActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="在此页输入自定义地址"
+        android:textSize="20dp"
+        android:textColor="#AAAAAA"
+        app:layout_constraintTop_toBottomOf="@+id/edit4" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="链接设置"
+        android:background="#5555"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/buttonback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@mipmap/ac"
+        android:text="返回"
+        android:textColor="#000000"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="330dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="@mipmap/aa"
+        android:hint="     默认网站:bilibli"
+        android:textColor="#000000"
+        android:textColorHint="#AAAAAA"
+        android:theme="@style/MyEditTextStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/mytext1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#FFFFFF"
+            android:gravity="center"
+            android:text="Up"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="28dp"
+            android:layout_height="46dp"
+            android:layout_marginBottom="10dp"
+            android:background="@mipmap/up" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="330dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="@mipmap/aa"
+        android:hint="     默认网站：PTA"
+        android:textColor="#000000"
+        android:textColorHint="#AAAAAA"
+        android:theme="@style/MyEditTextStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/edit1">
+
+        <TextView
+            android:id="@+id/mytext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="Down"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:layout_constraintTop_toBottomOf="@+id/edit1"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="28dp"
+            android:layout_height="46dp"
+            android:layout_marginBottom="10dp"
+            android:background="@mipmap/down" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_width="330dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="@mipmap/aa"
+        android:hint="     默认网站：健康码"
+        android:textColor="#000000"
+        android:textColorHint="#AAAAAA"
+        android:theme="@style/MyEditTextStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/edit2">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/mytext3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#FFFFFF"
+            android:gravity="center"
+            android:text="Left"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:layout_constraintTop_toBottomOf="@+id/edit2"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="34dp"
+            android:layout_marginBottom="10dp"
+            android:background="@mipmap/left" />
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/edit4"
+        android:layout_width="330dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="@mipmap/aa"
+        android:hint="     默认网站：百度"
+        android:textColor="#000000"
+        android:textColorHint="#AAAAAA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/edit3"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/mytext4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#FFFFFF"
+            android:gravity="center"
+            android:text="Right"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:theme="@style/MyEditTextStyle"
+            app:layout_constraintTop_toBottomOf="@+id/edit3"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="3dp"
+            android:background="@mipmap/right" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
